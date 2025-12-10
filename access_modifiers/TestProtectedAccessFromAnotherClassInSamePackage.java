@@ -1,4 +1,4 @@
-package access;
+package access_modifiers;
 
 class TestProtectedAccessFromAnotherClassInSamePackage {
   TestProtectedAccessModifier sampleClass = new TestProtectedAccessModifier("123");

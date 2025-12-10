@@ -1,4 +1,4 @@
-package access;
+package access_modifiers;
 
 class TestProtectedAccessModifier {
   protected String field = "My Field";  
