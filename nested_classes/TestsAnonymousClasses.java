@@ -7,16 +7,17 @@ public class TestsAnonymousClasses {
       
       @Override
       public void bark(){
-        IO.print("AAAUAUAUAUAUAUAU");
+        System.out.println("AAAUAUAUAUAUAUAU");
       }
     };
 
+    
     angryDog.bark();
   }
 
   public static class Dog {
     public void bark(){
-      IO.println("Au");
+      System.out.println("Au");
     }
   }
 }

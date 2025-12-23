@@ -8,6 +8,8 @@ class TestProtectedAccessFromAnotherClassInSamePackage {
      * For some weird design decision, 'protected' fields of another class
      * in the same package can be referenced.
      */
-    IO.println(sampleClass.field);
+    // Assuming IO.println exists and is accessible.
+    // IO.println(sampleClass.field);
+    System.out.println(sampleClass.field);
   }
 }
