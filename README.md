@@ -1,1 +1,27 @@
-2025-01-24 - Page 7
+2025-01-24 - Page 25
+    - Oracle updates Java releases every 6 months.
+    - Java JDK's come with tools to code in Java (javac, java, javadoc, jar).
+    - Classes are the basic building blocks in Java.
+    - Objects are runtime instances of Java classes.
+    - Classes contains methods, and variables, which are called 'instance members'
+    - Java has special keywords that may not be used in the code.
+    - There are three types of comments in Java (Single-line, Multi-line, Javadoc).
+    - A method name and parameter types create togheter a 'method signature'.
+    - There can be multiple classes or other types in a single Java file.
+    - There may never be two top-level elements in a single Java file.
+    - The public type of a Java file must match the filename it came from.
+    - The 'main()' method is the entrypoint of every Java program.
+    - The 'main()' method can receive arguments to be used inside the Java program.
+    - You should use quotes to pass arguments with spaces in them when running Java programs.
+    - There is no need to import the 'java.lang' classes, they are automatically added.
+    - Wildcard imports don't import classses from child packages.
+    - Importing loads of classes don't impact on the Java code execution performance.
+    - You can use explicit imports when dealing with two classes with the same name.
+    - You can use the full qualified name of a class to prevent import collisions.
+    - You can destinate a build folder in 'javac' using the '-d' option.
+    - In Java the PIC ordering must respected for Java files to compile.
+    - A constructor is a method that creates objects.
+    - In some cases you don't need to specify a constructor, the compiler will do this.
+    - You can defined code-blocks inside a class, these are 'instance initializers'.
+    - Fields and instance initializers run in the order they appear in the file.
+    - Constructors run after fields and instance initializers were run.
