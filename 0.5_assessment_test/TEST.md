@@ -1,0 +1,30 @@
+| \# | My choices | Correct Choices | Result |
+|----|------------|-----------------|--------|
+| 1  | G          | J               | Wrong  |
+| 2  | B          | B               | Right  |
+| 3  | B,D,F      | C,E             | Wrong  |
+| 4  | A          | D               | Wrong  |
+| 5  | D          | B               | Wrong  |
+| 6  | A          | C               | Wrong  |
+| 7  | A,D,F      | D,E             | Wrong  |
+| 8  | A,E,G      | C,E,F           | Wrong  |
+| 9  | A          | D               | Wrong  |
+| 10 | F,H        | F,H             | Right  |
+| 11 | C          | C,E,F           | Wrong  |
+| 12 | A,C,D,E    | C,D,E           | Wrong  |
+| 13 | B          | D,E             | Wrong  |
+| 14 | D          | B               | Wrong  |
+| 15 | C,F        | C,F             | Wrong  |
+| 16 | F          | F               | Right  |
+| 17 | C          | C               | Right  |
+| 18 | F          | C               | Wrong  |
+| 19 | D          | C               | Wrong  |
+| 20 | I          | I               | Right  |
+| 21 | A,C,D,E,F  | C,F             | Wrong  |
+| 22 | C          | D               | Wrong  |
+| 23 | E          | C               | Wrong  |
+| 24 | B,C        | B,F             | Wrong  |
+| 25 | G          | C,D             | Wrong  |
+| 26 | B,C,D,F    | B,D             | Wrong  |
+| 27 | F          | F               | Right  |
+| 28 | D          | F               | Wrong  |

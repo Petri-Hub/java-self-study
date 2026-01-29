@@ -62,4 +62,7 @@
     - You can't use 'var' and initialize it with a 'null' value.
     - You can't use 'var' in method or constructor parameter types.
     - 'var' is a reserved type name.
-    - 
+    - An object is eligible to be garbage collected when no one references it or all references got out of scope.
+    - Java has an included method to attempt to call garbage collector.
+    - We can't control exactly when an object is garbage collected, JVM takes care of this.
+    - Eligibility will be asked in the exam, but not garbage collected.
