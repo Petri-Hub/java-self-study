@@ -1,0 +1,9 @@
+# IDE files:
+.vscode
+.idea
+
+# VIM crash files:
+*.swp
+
+# InteliJ module files:
+*.iml
