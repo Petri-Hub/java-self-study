@@ -1,0 +1,68 @@
+2025-01-24 - Page 25
+    - Oracle updates Java releases every 6 months.
+    - Java JDK's come with tools to code in Java (javac, java, Javadoc, jar).
+    - Classes are the basic building blocks in Java.
+    - Objects are runtime instances of Java classes.
+    - Classes contains methods, and variables, which are called 'instance members'
+    - Java has special keywords that may not be used in the code.
+    - There are three types of comments in Java (Single-line, Multi-line, Javadoc).
+    - A method name and parameter types create togheter a 'method signature'.
+    - There can be multiple classes or other types in a single Java file.
+    - There may never be two top-level elements in a single Java file.
+    - The public type of Java file must match the filename it came from.
+    - The 'main()' method is the entrypoint of every Java program.
+    - The 'main()' method can receive arguments to be used inside the Java program.
+    - You should use quotes to pass arguments with spaces in them when running Java programs.
+    - There is no need to import the 'java.lang' classes, they are automatically added.
+    - Wildcard imports don't import classses from child packages.
+    - Importing loads of classes don't impact on the Java code execution performance.
+    - You can use explicit imports when dealing with two classes with the same name.
+    - You can use the full qualified name of a class to prevent import collisions.
+    - You can destinate a build folder in 'javac' using the '-d' option.
+    - In Java the PIC ordering must respect for Java files to compile.
+    - A constructor is a method that creates objects.
+    - In some cases you don't need to specify a constructor, the compiler will do this.
+    - You can define code-blocks inside a class, these are 'instance initializers'.
+    - Fields and instance initializers run in the order they appear in the file.
+    - Constructors run after fields and instance initializers were run.
+
+2025-01-29 - Page 51
+    - Java has exactly 8 primitive types, six being number related.
+    - Java 'String' is not a primitive.
+    - The bit size of a 'boolean' primitive type is dependent on the JVM.
+    - Java always assume you're typing a numeric int literal when no suffix is set.
+    - You can use at least Octal (0 prefix), Hexadecimal (0x prefix) and binary (0b) bases in Java.
+    - You can add underscores to numbers, but not at the side of dots and at the start/end of a value.
+    - Java references objects (reference types) using internal pointers.
+    - Primitive types don't have any methods.
+    - Each primitive type has a wrapper class (int → Integer).
+    - Java has text blocks that allow you to write multiline text sections.
+    - Java text blocks have incidental whitespaces and essential whitespace.
+    - A text block starts with '"""' and ends with '"""'.
+    - The first line of a text block is the line directly under the '"""', there is no line break there.
+    - Text blocks have special abilities to ignore 'code' inside of it.
+    - Text blocks REQUIRE a new line after them to work.
+    - Java variables can start with a letter, currency symbol or underlines.
+    - Variables can use the yuan, euro and dollar symbols.
+    - A single underscore is not allowed as a Java variable.
+    - Java has loads of reserved words, where 'var' is not exactly one of them.
+    - You can declare multiple variables in Java in the same line as long as they have the exact same type.
+    - You can't specify the type two times when declaring multiple variables in Java.
+    - You can't use 'var' to declare multiple variables.
+    - Semicolon is the character that separates statements in Java.
+    - A 'local variable' is a variable that is declared inside a constructor, method or initialization block.
+    - A variable can become final, preventing its value or reference change in the future.
+    - Local variables must be initialized before used.
+    - Local variables cause compilation errors WHEN they're used and not declared.
+    - Instance variables are variables declared in an instance.
+    - Class variables are declared in a class using the 'static' modifier.
+    - There is no need to initialize class or instance variables, they receive default values.
+    - You can use 'var' to use 'local variable inferencing'.
+    - You can't use 'var' without initializing it in the same statement.
+    - You can't use 'var' and initialize it with a 'null' value.
+    - You can't use 'var' in method or constructor parameter types.
+    - 'var' is a reserved type name.
+    - An object is eligible to be garbage collected when no one references it or all references got out of scope.
+    - Java has an included method to attempt to call garbage collector.
+    - We can't control exactly when an object is garbage collected, JVM takes care of this.
+    - Eligibility will be asked in the exam, but not garbage collected.
